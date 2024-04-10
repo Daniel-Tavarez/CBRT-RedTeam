@@ -1,0 +1,33 @@
+@import "../../assets/styles/common/variables.scss";
+
+.contact-us-button-modal {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  button {
+    height: 44px;
+    color: #fff;
+    background-color: $primary;
+    width: 184px;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .contact-us-button-modal {
+    button {
+      transition: 0.2s all ease-in;
+      width: 100vw;
+    }
+  }
+}

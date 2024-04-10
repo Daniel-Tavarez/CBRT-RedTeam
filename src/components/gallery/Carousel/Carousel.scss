@@ -1,0 +1,22 @@
+/* Estilo del contenedor del carrusel */
+.carousel {
+  width: 100%; /* Usa el ancho completo de la ventana */
+}
+
+/* Estilo de las celdas del carrusel */
+.carousel .flickity-viewport .flickity-slider img {
+  width: 33.333%; /* Cada celda del carrusel debe ser un tercio del ancho */
+  padding-left: 10px;
+  max-height: 569px; /* Mantiene la proporción de aspecto de la imagen */
+  object-fit: cover;
+  height: 100%;
+}
+.carousel .flickity-viewport {
+  height: 569px;
+  //   height: 100%;
+}
+.carousel .flickity-viewport .flickity-slider {
+  //   height: 569px;
+  height: 100%;
+  //   width: 33.333%; /* Cada celda del carrusel debe ser un tercio del ancho */
+}

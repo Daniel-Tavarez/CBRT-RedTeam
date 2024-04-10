@@ -1,0 +1,40 @@
+@import "../../assets/styles/common/variables.scss";
+
+.about-us {
+  padding: 120px 60px;
+  display: flex;
+  gap: 60px;
+  flex-direction: column;
+  .left-side {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    .content {
+      h3 {
+        text-align: left;
+        font-size: 52px;
+        font-weight: normal;
+        line-height: 1.2em;
+        color: #000;
+      }
+      h4 {
+        font-size: 28px;
+        color: $primary;
+        font-weight: normal;
+      }
+    }
+  }
+  .right-side {
+    @extend .left-side;
+    justify-content: flex-end;
+    .content {
+      padding-right: 120px;
+      p {
+        line-height: 1.2em;
+        max-width: 580px;
+        font-size: 20px;
+        text-align: left;
+      }
+    }
+  }
+}

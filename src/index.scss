@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Excon";
+  src: url("assets/fonts/Excon-Regular.eot"); /* IE9 Compat Modes */
+  src: url("assets/fonts/Excon-Regular.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("assets/fonts/Excon-Regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("assets/fonts/Excon-Regular.woff")
+      format("woff"),
+    /* Pretty Modern Browsers */ url("assets/fonts/Excon-Regular.ttf")
+      format("truetype"); /* Safari, Android, iOS */
+  font-weight: normal;
+  // font-style: normal;
+}
+
+@font-face {
+  font-family: "Excon";
+  src: url("assets/fonts/Excon-Bold.eot");
+  src: url("assets/fonts/Excon-Bold.eot?#iefix") format("embedded-opentype"),
+    url("assets/fonts/Excon-Bold.woff2") format("woff2"),
+    url("assets/fonts/Excon-Bold.woff") format("woff"),
+    url("assets/fonts/Excon-Bold.ttf") format("truetype");
+  font-weight: bold;
+  // font-style: normal;
+}
+
+@font-face {
+  font-family: "Excon";
+  src: url("assets/fonts/Excon-Black.eot");
+  src: url("assets/fonts/Excon-Black.eot?#iefix") format("embedded-opentype"),
+    url("assets/fonts/Excon-Black.woff2") format("woff2"),
+    url("assets/fonts/Excon-Black.woff") format("woff"),
+    url("assets/fonts/Excon-Black.ttf") format("truetype");
+  font-weight: 900;
+  // font-style: normal;
+}
+
+@font-face {
+  font-family: "Excon";
+  src: url("assets/fonts/Excon-Light.eot");
+  src: url("assets/fonts/Excon-Light.eot?#iefix") format("embedded-opentype"),
+    url("assets/fonts/Excon-Light.woff2") format("woff2"),
+    url("assets/fonts/Excon-Light.woff") format("woff"),
+    url("assets/fonts/Excon-Light.ttf") format("truetype");
+  font-weight: 400;
+  // font-style: normal;
+}
+
+:root {
+  font-family: "Excon";
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  margin: 0;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}

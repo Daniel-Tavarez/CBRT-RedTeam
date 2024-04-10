@@ -1,0 +1,45 @@
+.latest-alerts {
+  max-width: 1320px;
+  margin: 7em auto 0 auto;
+  h2 {
+    font-size: 132px;
+    font-weight: 900;
+  }
+  .flex-alerts {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    &:last-child {
+      margin-top: 4em;
+    }
+    .alert {
+      &:hover {
+        opacity: 0.9;
+      }
+      cursor: pointer;
+      width: 100%;
+      height: 100%;
+      max-width: 645px;
+      max-height: 436px;
+      overflow: hidden;
+      position: relative;
+      img {
+        width: 100%;
+        height: 100%;
+        height: 436px;
+        object-fit: cover;
+      }
+      button {
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-color: $primary;
+        width: 164px;
+        border: none;
+        font-size: 20px;
+        height: 44px;
+        color: #fff;
+      }
+    }
+  }
+}
