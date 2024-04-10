@@ -9,7 +9,7 @@ const OurServices = () => {
         <div className="services-cards">
           <div className="services-card">
             <div className="logo">
-              <img src="/src/assets/img/headset.svg" alt="" />
+              <img src="/assets/img/headset.svg" alt="" />
             </div>
             <div className="title">
               <h5>Property Sales and</h5>
@@ -23,7 +23,7 @@ const OurServices = () => {
           </div>
           <div className="services-card">
             <div className="logo">
-              <img src="/src/assets/img/headset.svg" alt="" />
+              <img src="/assets/img/headset.svg" alt="" />
             </div>
             <div className="title">
               <h5>Property Management</h5>
@@ -38,7 +38,7 @@ const OurServices = () => {
           </div>
           <div className="services-card">
             <div className="logo">
-              <img src="/src/assets/img/headset.svg" alt="" />
+              <img src="/assets/img/headset.svg" alt="" />
             </div>
             <div className="title">
               <h5>Real Estate Investment</h5>
@@ -50,7 +50,7 @@ const OurServices = () => {
           </div>
           <div className="services-card">
             <div className="logo">
-              <img src="/src/assets/img/headset.svg" alt="" />
+              <img src="/assets/img/headset.svg" alt="" />
             </div>
             <div className="title">
               <h5>Relocation Assistance</h5>
@@ -64,7 +64,7 @@ const OurServices = () => {
           </div>
           <div className="services-card">
             <div className="logo">
-              <img src="/src/assets/img/headset.svg" alt="" />
+              <img src="/assets/img/headset.svg" alt="" />
             </div>
             <div className="title">
               <h5>Property Valuation and</h5>
@@ -78,7 +78,7 @@ const OurServices = () => {
           </div>
           <div className="services-card">
             <div className="logo">
-              <img src="/src/assets/img/headset.svg" alt="" />
+              <img src="/assets/img/headset.svg" alt="" />
             </div>
             <div className="title">
               <h5>Listing and Marketing</h5>
