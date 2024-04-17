@@ -1,6 +1,13 @@
 const Header = () => {
   return (
-    <div className="header">
+    <div
+      data-aos="fade-up"
+      data-aos-once="false"
+      data-aos-delay="50"
+      data-aos-offset="0"
+      data-aos-duration="300"
+      data-aos-anchor-placement="bottom-top"
+      className="header">
       <div className="logo">
         <img
           src="https://framerusercontent.com/images/Nm8YjXLOLSWw29kkfqwbqdVoE5Y.png"

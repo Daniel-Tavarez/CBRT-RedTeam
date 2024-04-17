@@ -2,7 +2,12 @@ const AboutUs = () => {
   return (
     <div className="about-us" id="about">
       <div className="left-side">
-        <div className="content">
+        <div
+          data-aos="fade-up"
+          // data-aos-anchor-placement="top-top"
+          data-aos-offset="500"
+          data-aos-once="true"
+          className="content">
           <h3>ABOUT US</h3>
           <h4>Secure today, prevent and defend everyday</h4>
         </div>

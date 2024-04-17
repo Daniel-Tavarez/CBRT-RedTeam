@@ -15,33 +15,37 @@
     position: absolute;
     right: 0;
     bottom: 0;
-    h2 {
-      color: $secondary;
-      font-size: 85px;
-      line-height: 1;
-      text-align: right;
-      font-weight: 900;
-    }
-    h1 {
-      text-align: right;
-      color: $primary;
-      font-size: 148px;
-      font-weight: 900;
-      line-height: 0.9;
+    .text {
+      h2 {
+        color: $secondary;
+        font-size: 85px;
+        line-height: 1;
+        text-align: right;
+        font-weight: 900;
+      }
+      h1 {
+        text-align: right;
+        color: $primary;
+        font-size: 148px;
+        font-weight: 900;
+        line-height: 0.9;
+      }
     }
     .styled-lined-buttons {
       display: flex;
       justify-content: flex-end;
       height: 60px;
       align-items: center;
-      .logo-text {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        margin-left: 55px;
-        p {
-          margin: 0;
-          color: #fff;
+      .animation {
+        .logo-text {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          margin-left: 55px;
+          p {
+            margin: 0;
+            color: #fff;
+          }
         }
       }
     }

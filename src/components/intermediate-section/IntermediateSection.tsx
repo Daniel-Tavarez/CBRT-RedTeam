@@ -28,13 +28,19 @@ const IntermediateSection = () => {
           </p>
         </div>
       </div>
-
-      <div className="bottom-content">
+      <div
+        data-aos="fade-right"
+        data-aos-once="true"
+        data-aos-delay="300"
+        data-aos-offset="0"
+        data-aos-duration="800"
+        className="bottom-content">
         <img
           src="https://framerusercontent.com/images/Sb4evMvJoM9VdhIwJzYeLK8IvI4.jpg"
           alt=""
         />
       </div>
+      {/* <div className="bottom-content"></div> */}
 
       <div className="lower-text">
         <div className="text">
